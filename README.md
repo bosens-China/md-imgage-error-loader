@@ -16,24 +16,26 @@
 ```sh
 git clone https://github.com/bosens-China/lib-typescript-template.git
 cd lib-typescript-template
-npm install
+yarn install
 ```
+
+**tip**: 尽量使用 yarn 安装
 
 > 如果拉取速度过慢，可以使用[github-clone](https://github.com/bosens-China/github-clone)拉取
 
 ## 功能列表
 
-- Eslint 规则的[Airbnb](https://github.com/airbnb/javascript)；与 Airbnb 风格一致的[Prettier](https://prettier.io/)格式化配置文件
+- Eslint 规则的 [Airbnb](https://github.com/airbnb/javascript)；与 Airbnb 风格一致的 [Prettier](https://prettier.io/) 格式化配置文件
 - Git 提交规范和校验
-- [jest](https://jestjs.io/)单元测试
-- [rollup](https://rollupjs.org/guide/en/)构建工具的开箱即用
-- [ts-node](https://github.com/TypeStrong/ts-node)断点调试(只支持 Visual Studio Code)
+- [jest](https://jestjs.io/) 单元测试
+- [rollup](https://rollupjs.org/guide/en/) 构建工具的开箱即用
+- [ts-node](https://github.com/TypeStrong/ts-node) 断点调试(只支持 Visual Studio Code)
 
 ## 其他
 
-运行 `npm run changelog` 生成 CHANGELOG.md 文件
+运行 `yarn run changelog` 生成 CHANGELOG.md 文件
 
-运行 `npm run comment` 进行 Git 提交
+运行 `yarn run comment` 进行 Git 提交
 
 如果你有好的想法欢迎 pr
 
