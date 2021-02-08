@@ -5,8 +5,11 @@
 构建 Typescript 的一个模板仓库，出现它的契机是因为随着工程化的出现，构建一个项目再也不是一个`.js`文件就能解决的了。
 
 为了避免简单的错误，引入了 Eslint 的代码规范；
+
 为了解决 javaScript 过于灵活出现了 Typescript；
+
 为了提高代码质量出现了 Jest 等一系列测试工具；
+
 为了不必等待使用最新的 ECMAScript 语法，出现了 Babel；
 
 上面的一切都在说明前端从刀耕火种迈向了现代化，但是于此同时，繁琐的配置文件太考验一个人的耐心了，重复的工作是每个程序员都要避免的，这个仓库就是将一些常用的配置文件整合起来做到拉取完成就可以使用。
@@ -21,7 +24,7 @@ yarn install
 
 **tip**: 尽量使用 yarn 安装
 
-> 如果拉取速度过慢，可以使用[github-clone](https://github.com/bosens-China/github-clone)拉取
+> 如果拉取 Git 速度过慢，可以使用[github-clone](https://github.com/bosens-China/github-clone)拉取
 
 ## 功能列表
 
