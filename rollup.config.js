@@ -28,5 +28,5 @@ export default {
     terser(),
   ],
   // 告诉rollup不要讲第三方模板打包进来
-  external: ['lodash'],
+  external: ['lodash', 'loader-utils', 'fs', 'path', 'markdown-it'],
 };

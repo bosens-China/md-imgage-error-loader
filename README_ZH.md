@@ -1,26 +1,24 @@
 # md-imgage-error-loader
 
-[中文文档](/README_ZH.md)
+处理`.md`文件中不存在的图片文件，将其替换掉
 
-Process image files that do not exist in the `.md` file and replace them
-
-## Installation
+## 安装
 
 ```sh
 npm i md-imgage-error-loader
 ```
 
-## Usage
+## 用法
 
 webpack
 
 ```js
-// ... omit some configuration
+// ... 省略部分配置
 use: [
   {
     loader: 'md-imgage-error-loader',
     options: {
-      // A string or a function that accepts a replacement array
+      //接受一个字符串或者函数
       src: 'http://xxxx.png',
       // or
       src: (x) => 'dir' + x,
@@ -29,6 +27,6 @@ use: [
 ];
 ```
 
-## Agreement
+## 协议
 
 MIT License
