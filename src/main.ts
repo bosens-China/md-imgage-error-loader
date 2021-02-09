@@ -4,7 +4,7 @@ import Token from 'markdown-it/lib/token';
 import { isExists, isUrl, getFilePath } from './utils';
 
 interface Ioptions {
-  src: string | ((file: string) => string);
+  src: string | ((file: string, currentPath: string) => string);
 }
 
 function mdImgage(this: any, source: string) {
@@ -52,7 +52,7 @@ function mdImgage(this: any, source: string) {
       return x.replace(y, src);
     }
     if (typeof src === 'function') {
-      return x.replace(y, src(y));
+      return x.replace(y, src(y, dirpath));
     }
     return x;
   }, source);

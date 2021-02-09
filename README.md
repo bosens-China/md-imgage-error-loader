@@ -23,7 +23,9 @@ use: [
       // A string or a function that accepts a replacement array
       src: 'http://xxxx.png',
       // or
-      src: (x) => 'dir' + x,
+      src: (currentName, currentPath) => {
+        // xxx
+      },
     },
   },
 ];

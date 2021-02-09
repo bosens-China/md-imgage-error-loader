@@ -21,7 +21,9 @@ use: [
       //接受一个字符串或者函数
       src: 'http://xxxx.png',
       // or
-      src: (x) => 'dir' + x,
+      src: (currentName, currentPath) => {
+        // xxx
+      },
     },
   },
 ];
