@@ -1,6 +1,6 @@
 {
   "name": "md-imgage-error-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Markdown invalid picture replacement",
   "main": "dist/main.js",
   "repository": {
